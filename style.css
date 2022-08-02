@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+  background: #ecf0f3;
+}
+
+* {
+  color: #4e557a;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.box {
+  width: 80%;
+  max-width: 900px;
+  margin: 20vh auto;
+}
+
+textarea {
+  width: 100%;
+  min-height: 8rem;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  margin: 15px 0px;
+  line-height: 2rem;
+  font-weight: 300;
+  background: #ffffff;
+  border: none;
+  border-radius: 1rem;
+  outline: none;
+  box-shadow: 18px 18px 30px #d1d9e9, -18px -18px 30px #ffffff;
+}
+
+textarea::placeholder {
+  color: #4e557a;
+}
+
+textarea:focus {
+  /* min-height: 12rem; */
+  box-shadow: inset 18px 18px 30px #d1d9e9, inset -18px -18px 30px #ffffff;
+}
+button {
+  font-size: 1rem;
+  color: #4e557a;
+  border: none;
+  border-radius: 15px;
+  border: 2px solid #e7e7e7;
+  border-radius: 0.5rem;
+  padding: 7px;
+  text-transform: uppercase;
+  box-shadow: 18px 18px 30px #d1d9e9, -18px -18px 30px #ffffff;
+}
+
+textarea:placeholder-shown {
+  background: none;
+}
